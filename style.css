@@ -1,0 +1,66 @@
+body {
+    background-color: #222;
+    color: #fff;
+}
+
+
+table {
+    margin: auto;
+    margin-top: 50px;
+    border: 1px solid black;
+    color: #222;
+    font-weight: bold;
+    background-color: #fff;
+}
+
+
+.board td {
+    width: 75px;
+    height: 75px;
+    text-align: center;
+    transition: 0.5s;
+    border: 2px solid black;
+
+}
+
+.board td:hover {
+    background-color: lightslategray;
+}
+
+.cell {
+    background-color: lightslategray;
+}
+
+label {
+    text-align: center;
+}
+
+.level {
+    text-align: center;
+
+}
+
+
+.level h2 {
+    padding-top: 100px;
+}
+
+.btn {
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 30px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(208, 229, 247);
+}
+
+.container {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.next-num {
+    text-align: center;
+}
